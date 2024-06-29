@@ -1,0 +1,6 @@
+# Exclude native code directories from language stats
+android/** linguist-vendored
+ios/** linguist-vendored
+
+# Exclude build artifacts
+build/** linguist-generated
